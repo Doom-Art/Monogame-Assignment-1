@@ -31,6 +31,7 @@ namespace Monogame_Assignment_1
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            this.Window.Title = "Rainy Day with Annoying Fly";
             _graphics.PreferredBackBufferWidth = 800;
             _graphics.PreferredBackBufferHeight = 400;
             _graphics.ApplyChanges();
